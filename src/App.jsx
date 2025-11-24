@@ -10,14 +10,17 @@ let[passwordErr, setpasswordErr] = useState("");
 
 const fullNameHandle = (e)=> {
   setfullName(e.target.value);
+  setnameErr("");
   
 }
 const emailHandle = (e)=> {
   setemail(e.target.value);
+  setemailErr("");
   
 }
 const passwordHandle = (e)=> {
   setpassword(e.target.value);
+  setpasswordErr("")
   
 }
 

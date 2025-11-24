@@ -3,5 +3,8 @@ input{
     @apply border-3 text-2xl p-2 mt-6 border-green-600 rounded-2xl;
 }
 button{
-    @apply bg-black text-2xl text-white rounded-2xl mt-6 p-3 w-fit m-auto cursor-pointer;
+    @apply bg-black hover:bg-red-600 text-3xl text-white rounded-2xl mt-6 p-3 w-fit m-auto cursor-pointer;
+}
+p{
+    @apply bg-red-600 w-fit rounded-2xl p-2 mt-2 text-white
 }
